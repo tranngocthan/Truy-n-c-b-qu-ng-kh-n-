@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cô Bé Quàng Khăn Đỏ - Câu Chuyện Hoạt Hình Đầy Đủ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #a8e6cf 0%, #ffd3a5 50%, #fdffb6 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+        }
+        nav {
+            background-color: #4ecdc4;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 15px;
+            transition: background 0.3s, transform 0.2s;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        nav a:hover {
+            background-color: #a8e6cf;
+            transform: scale(1.05);
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fffaf0;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(255, 182, 193, 0.2);
+            border: 2px solid #ffeaa7;
+        }
+        .story-part {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        .story-part img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-right: 20px;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .story-part:nth-child(even) {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        .story-part:nth-child(even) img {
+            margin-right: 0;
+            margin-left: 20px;
+        }
+        .story-text {
+            flex: 1;
+            font-size: 16px;
+        }
+        .story-text h2 {
+            color: #27ae60;
+            border-bottom: 2px solid #ffeaa7;
+            padding-bottom: 5px;
+        }
+        blockquote {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-style: italic;
+            color: #856404;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2ecc71;
+            color: white;
+            margin-top: 20px;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -4px 8px rgba(46, 204, 113, 0.3);
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .story-part {
+                flex-direction: column;
+                text-align: center;
+            }
+            .story-part img {
+                margin: 0 0 20px 0;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌹 Cô Bé Quàng Khăn Đỏ 🌹</h1>
+        <p>Câu chuyện cổ tích kinh điển với hình ảnh hoạt hình và nội dung đầy đủ</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#chuong1">Chương 1</a></li>
+            <li><a href="#chuong2">Chương 2</a></li>
+            <li><a href="#chuong3">Chương 3</a></li>
+            <li><a href="#chuong4">Chương 4</a></li>
+            <li><a href="#ketthuc">Kết Thúc</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="chuong1">
+            <div class="story-part">
+                <img src="https://cdn.pixabay.com/photo/2016/01/09/18/22/little-red-riding-hood-1130258_640.png" alt="Cô bé quàng khăn đỏ dễ thương" loading="lazy">
+                <div class="story-text">
+                    <h2>Chương 1: Ngày Xửa Ngày Xưa Và Hành Trình Bắt Đầu</h2>
+                    <p>Ngày xửa, ngày xưa, có một cô bé thường hay quàng chiếc khăn màu đỏ, vì vậy, mọi người gọi cô là cô bé quàng khăn đỏ. Một hôm, mẹ cô bảo cô mang bánh sang biếu bà ngoại. Trước khi đi, mẹ cô dặn:</p>
+                    <blockquote>– Con đi thì đi đường thẳng, đừng đi đường vòng qua rừng mà chó sói ăn thịt con đấy.</blockquote>
+                    <p>Trên đường đi, cô thấy đường vòng qua rừng có nhiều hoa, nhiều bướm, không nghe lời mẹ dặn, cô tung tăng đi theo đường đó. Đi được một quãng thì gặp Sóc, Sóc nhắc:</p>
+                    <blockquote>– Cô bé quàng khăn đỏ ơi, lúc nãy tôi nghe mẹ cô dặn đi đường thẳng, đừng đi đường vòng cơ mà. Sao cô lại đi đường này?</blockquote>
+                    <p>Cô bé không trả lời Sóc. Cô cứ đi theo đường vòng qua rừng. Vừa đi, cô vừa hái hoa, bắt bướm.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="chuong2">
+            <div class="story-part">
+                <img src="https://cdn.pixabay.com/photo/2024/01/01/00/00/little-red-riding-hood-9724469_640.png" alt="Cô bé đi rừng hái hoa" loading="lazy">
+                <div class="story-text">
+                    <h2>Chương 2: Gặp Chó Sói Và Lừa Dối</h2>
+                    <p>Vào đến cửa rừng thì cô gặp chó sói. Con chó sói rất to đến trước mặt cô. Nó cất giọng ồm ồm hỏi:</p>
+                    <blockquote>– Này, cô bé đi đâu thế?</blockquote>
+                    <p>Nghe chó sói hỏi, cô bé quàng khăn đỏ sợ lắm, nhưng cũng đành bạo dạn trả lời:</p>
+                    <blockquote>– Tôi đi sang nhà bà ngoại tôi.</blockquote>
+                    <p>Nghe cô bé nói đi sang bà ngoại, chó sói nghĩ bụng: À, thì ra nó lại còn có bà ngoại nữa, thế thì mình phải ăn thịt cả hai bà cháu. Nghĩ vậy nên chó sói lại hỏi:</p>
+                    <blockquote>– Nhà bà ngoại cô ở đâu?</blockquote>
+                    <p>– Ở bên kia khu rừng. Cái nhà có ống khói đấy, cứ đẩy cửa là vào được ngay.</p>
+                    <p>Nghe xong, chó sói bỏ cô bé quàng khăn đỏ ở đấy rồi chạy một mạch đến nhà bà ngoại cô bé. Nó đẩy cửa vào vồ lấy bà cụ rồi nuốt chửng ngay vào bụng. Xong xuôi, nó lên giường nằm đắp chăn giả là bà ngoại ốm.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="chuong3">
+            <div class="story-part">
+                <img src="https://cdn.pixabay.com/photo/2024/02/23/09/38/ai-generated-8592381_640.jpg" alt="Cô bé gặp sói trong rừng" loading="lazy">
+                <div class="story-text">
+                    <h2>Chương 3: Cuộc Trò Chuyện Và Nguy Hiểm Rình Rập</h2>
+                    <p>Lúc cô bé quàng khăn đỏ đến, cô thấy chó sói đắp chăn nằm trên giường, cô tưởng “bà ngoại” bị ốm thật, cô hỏi:</p>
+                    <blockquote>– Bà ơi! Bà ốm đã lâu chưa?</blockquote>
+                    <p>Sói không đáp giả vờ rên hừ… hừ…</p>
+                    <blockquote>– Bà ơi, mẹ cháu bảo mang bánh sang biếu bà.</blockquote>
+                    <p>– Thế à, thế thì bà cám ơn cháu và mẹ cháu. Cháu ngoan quá. Cháu lại đây với bà.</p>
+                    <p>Cô bé quàng khăn đỏ chạy ngay đến cạnh giường, nhưng cô ngạc nhiên lùi lại hỏi;</p>
+                    <blockquote>– Bà ơi! Sao hôm nay tai bà dài thế?</blockquote>
+                    <p>– Tai bà dài để bà nghe cháu nói được rõ hơn. Chó sói đáp</p>
+                    <blockquote>– Thế còn mắt bà, sao hôm nay mắt bà to thế?</blockquote>
+                    <p>– Mắt bà to để bà nhìn cháu được rõ hơn.</p>
+                    <p>Chưa tin, cô bé quàng khăn đỏ lại hỏi:</p>
+                    <blockquote>– Thế còn mồm bà, sao hôm nay mồm bà to thế?</blockquote>
+                    <p>– Mồm bà to để bà ăn thịt cháu đấy.</p>
+                    <p>Sói nói xong liền nhảy ra khỏi giường, nuốt chửng em bé Khăn Đỏ đáng thương.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="chuong4">
+            <div class="story-part">
+                <img src="https://cdn.pixabay.com/photo/2024/10/03/11/31/little-red-riding-hood-9093166_640.png" alt="Sói và cô bé trong nhà bà" loading="lazy">
+                <div class="story-text">
+                    <h2>Chương 4: Cứu Thoát Kỳ Diệu</h2>
+                    <p>Sói đã no nê lại nằm xuống giường ngủ ngáy o o. May sao, lúc đó bác thợ săn đi ngang thấy thế. Bác giơ súng lên định bắn. Nhưng bác chợt nghĩ ra là chắc sói đã ăn thịt bà lão, và tuy vậy vẫn còn có cơ cứu bà. Bác nghĩ không nên bắn mà nên lấy kéo rạch bụng con sói đang ngủ ra. Vừa rạch được vài mũi thì thấy chiếc khăn quàng đỏ chóe, rạch được vài mũi nữa thì cô bé nhảy ra kêu:</p>
+                    <blockquote>– Trời ơi! Cháu sợ quá! Trong bụng sói, tối đen như mực.</blockquote>
+                    <p>Bà lão cũng còn sống chui ra, thở hổn hển. Khăn đỏ vội đi nhặt đá to nhét đầy bụng sói. Sói tỉnh giấc muốn nhảy lên, nhưng đá nặng quá, nó ngã khuỵu xuống, lăn ra chết.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ketthuc">
+            <div class="story-part">
+                <img src="https://cdn.pixabay.com/photo/2023/06/07/10/43/little-red-riding-hood-6703144_640.png" alt="Kết thúc hạnh phúc với cô bé và bà" loading="lazy">
+                <div class="story-text">
+                    <h2>Kết Thúc: Bài Học Nhớ Đời</h2>
+                    <p>Từ dạo ấy, cô bé quàng khăn đỏ không bao giờ dám làm sai lời mẹ dặn.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Trang web kể chuyện hoạt hình. Thiết kế bởi Grok. Hình ảnh từ Pixabay (royalty-free).</p>
+        <p><a href="https://loigiaihay.com/co-be-quang-khan-do-truyen-co-tich-the-gioi-a186017.html" target="_blank">Xem thêm câu chuyện gốc tại đây</a></p>
+    </footer>
+
+    <script>
+        // Hiệu ứng fade-in khi cuộn trang
+        window.addEventListener('scroll', () => {
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                const rect = img.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    img.style.animationDelay = '0.5s';
+                    img.style.opacity = '1';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

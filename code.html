@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cô Bé Quàng Khăn Đỏ - Câu Chuyện Hoạt Hình Đầy Đủ</title>
+    <title>Cô Bé Quàng Khăn Đỏ</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -28,38 +28,51 @@
             padding: 20px;
             border-radius: 0 0 20px 20px;
             box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header audio {
+            width: 300px;
+            max-width: 100%;
+            margin: 10px 0;
+            border-radius: 10px;
         }
         nav {
             background-color: #4ecdc4;
-            padding: 10px;
+            padding: 15px;
             border-radius: 10px;
-            margin: 10px 20px;
+            margin: 10px auto;
+            max-width: 400px;
         }
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
         }
         nav li {
-            margin: 0 10px;
+            margin: 8px 0;
+            width: 100%;
         }
         nav a {
             color: white;
             text-decoration: none;
-            padding: 8px 16px;
+            padding: 12px 16px;
             border-radius: 15px;
             transition: background 0.3s, transform 0.2s;
             background: rgba(255, 255, 255, 0.2);
+            font-size: 14px;
+            text-align: center;
+            display: block;
         }
         nav a:hover {
             background-color: #a8e6cf;
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
         section {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
             background: #fffaf0;
@@ -73,8 +86,8 @@
             margin-bottom: 30px;
         }
         .story-part img {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             object-fit: cover;
             border-radius: 15px;
             margin-right: 20px;
@@ -120,6 +133,9 @@
             margin-top: 20px;
             border-radius: 20px 20px 0 0;
             box-shadow: 0 -4px 8px rgba(46, 204, 113, 0.3);
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
         footer a {
             color: #fff;
@@ -131,13 +147,21 @@
                 text-align: center;
             }
             .story-part img {
+                width: 200px;
+                height: 200px;
                 margin: 0 0 20px 0;
             }
-            nav ul {
-                flex-direction: column;
+            nav {
+                margin: 10px;
+                padding: 10px;
+                max-width: 100%;
             }
-            nav li {
-                margin: 5px 0;
+            nav a {
+                font-size: 13px;
+            }
+            section {
+                max-width: 100%;
+                padding: 10px;
             }
         }
     </style>
@@ -145,16 +169,19 @@
 <body>
     <header>
         <h1>🌹 Cô Bé Quàng Khăn Đỏ 🌹</h1>
-        
+        <audio controls>
+            <source src="https://img.loigiaihay.com/lgh/2025/0626/1750900503490-khan-do-nu-mien-nam.mp3" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ audio MP3. <a href="audio/full-story.mp3">Tải xuống để nghe toàn bộ</a>.
+        </audio>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#chuong1">Chương 1</a></li>
-            <li><a href="#chuong2">Chương 2</a></li>
-            <li><a href="#chuong3">Chương 3</a></li>
-            <li><a href="#chuong4">Chương 4</a></li>
-            <li><a href="#ketthuc">Kết Thúc</a></li>
+            <li><a href="#chuong1">Chương 1: Ngày Xửa Ngày Xưa Và Hành Trình Bắt Đầu</a></li>
+            <li><a href="#chuong2">Chương 2: Gặp Chó Sói Và Lừa Dối</a></li>
+            <li><a href="#chuong3">Chương 3: Cuộc Trò Chuyện Và Nguy Hiểm Rình Rập</a></li>
+            <li><a href="#chuong4">Chương 4: Cứu Thoát Kỳ Diệu</a></li>
+            <li><a href="#ketthuc">Kết Thúc: Bài Học Nhớ Đời</a></li>
         </ul>
     </nav>
 
@@ -237,8 +264,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 - Trang web kể chuyện hoạt hình. Thiết kế bởi Grok.</p>
-       <!--<p><a href="https://loigiaihay.com/co-be-quang-khan-do-truyen-co-tich-the-gioi-a186017.html" target="_blank">Xem thêm câu chuyện gốc tại đây</a></p>-->
+        <p>&copy; 2025 - Trang web kể chuyện hoạt hình với voice-over. Thiết kế bởi Grok.</p>
     </footer>
 
     <script>
